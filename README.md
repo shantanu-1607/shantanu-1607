@@ -4,7 +4,7 @@
 
 # Shantanu Kumar Singh
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Backend+Engineer;Distributed+Systems+%26+Event-Driven+Architecture;Async+APIs+that+hold+under+load;750%2B+competitive+programming+problems+solved" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Backend+Engineer;Distributed+Systems+%26+Event-Driven+Architecture;800%2B+competitive+programming+problems+solved" />
 
 <br>
 
