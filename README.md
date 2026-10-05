@@ -4,7 +4,7 @@
 
 <h3>Backend engineer · Go &amp; distributed systems · Open-source contributor</h3>
 
-<p>I build fault-tolerant services, measure how they behave under load, and make them easier to operate.</p>
+
 
 <a href="https://www.linkedin.com/in/shantanu-singh-b46984240/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:shantanu.singh16076@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-7C3AED?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
