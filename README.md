@@ -17,7 +17,7 @@
 
 ## LeetCode progress
 
-**Knight · 1870 peak contest rating** &nbsp;|&nbsp; **1,000+ DSA problems solved across platforms** &nbsp;|&nbsp; **Global rank 956, Weekly Contest 518**
+**Knight · 1870 peak contest rating** &nbsp;|&nbsp; **1,000+ DSA problems solved across platforms** &nbsp;
 
 <div align="center">
   <a href="https://leetcode.com/u/shantanu_singh28/">
