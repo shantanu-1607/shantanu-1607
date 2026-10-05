@@ -1,82 +1,93 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=170&section=header" />
-
 <div align="center">
 
-# Shantanu Kumar Singh
+<img src="assets/profile-banner.svg" width="100%" alt="Shantanu Singh — backend engineer building reliable distributed systems" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Backend+Engineer;Distributed+Systems+%26+Event-Driven+Architecture;900%2B+competitive+programming+problems+solved" />
+<h3>Backend engineer · Go &amp; distributed systems · Open-source contributor</h3>
 
-<br>
+<p>I build fault-tolerant services, measure how they behave under load, and make them easier to operate.</p>
 
-<a href="https://www.linkedin.com/in/shantanu-singh-b46984240/"><img src="https://img.shields.io/badge/LinkedIn-4C1D95?style=flat-square&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/shantanu-1607"><img src="https://img.shields.io/badge/GitHub-4C1D95?style=flat-square&logo=github&logoColor=white" /></a>
-<a href="https://leetcode.com/u/shantanu_singh28/"><img src="https://img.shields.io/badge/LeetCode-4C1D95?style=flat-square&logo=leetcode&logoColor=white" /></a>
-<a href="https://codeforces.com/profile/shandy_16"><img src="https://img.shields.io/badge/Codeforces-4C1D95?style=flat-square&logo=codeforces&logoColor=white" /></a>
-<a href="mailto:singhshantanu.0210@gmail.com"><img src="https://img.shields.io/badge/Email-4C1D95?style=flat-square&logo=gmail&logoColor=white" /></a>
-<br>
-<img src="https://komarev.com/ghpvc/?username=shantanu-1607&style=flat-square&color=7C3AED&label=Profile+Views" />
+<a href="https://www.linkedin.com/in/shantanu-singh-b46984240/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:shantanu.singh16076@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-7C3AED?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" /></a>
+<a href="https://leetcode.com/u/shantanu_singh28/"><img src="https://img.shields.io/badge/LeetCode-Follow%20my%20progress-FFA116?style=for-the-badge&amp;logo=leetcode&amp;logoColor=black" alt="LeetCode" /></a>
+<a href="https://codeforces.com/profile/shandy_16"><img src="https://img.shields.io/badge/Codeforces-Profile-1F8ACB?style=for-the-badge&amp;logo=codeforces&amp;logoColor=white" alt="Codeforces" /></a>
 
 </div>
 
 ---
 
+## LeetCode progress
+
+**Knight · 1870 peak contest rating** &nbsp;|&nbsp; **1,000+ DSA problems solved across platforms** &nbsp;|&nbsp; **Global rank 956, Weekly Contest 518**
+
 <div align="center">
-
-I build backend systems — async APIs, event-driven pipelines, and cloud infrastructure that holds under load.  
-Currently a **Software Engineering Intern @ Parikshak.ai**, working on serverless architecture with AWS Lambda, SQS & EventBridge.
-
+  <a href="https://leetcode.com/u/shantanu_singh28/">
+    <img src="https://leetcard.jacoblin.cool/shantanu_singh28?theme=dark&amp;font=Baloo%202&amp;ext=heatmap" alt="Live LeetCode solve counts, ranking, and activity heatmap for shantanu_singh28" width="500" />
+  </a>
+  <br />
+  <sub>The card updates from my LeetCode profile. Click it for my latest submissions and contest history.</sub>
 </div>
 
 ---
 
-### Stack
+## Featured projects
 
-<div align="center">
+### 01 / [Raftra](https://github.com/shantanu-1607/Raftra) — a distributed key-value store
 
-**Languages**  
-<img src="https://skillicons.dev/icons?i=c,cpp,python,js,ts&theme=dark" />
+**Go · Raft · gRPC · bbolt · Prometheus**
 
-**Backend & Full-Stack**  
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask,react&theme=dark" />
+A three-node store with leader election, log replication, durable writes, and fault testing. It sustained **5.8K ops/sec across 1M operations with zero errors**; chaos tests covered leader crashes, network partitions, and full-cluster blackouts.
 
-**Databases & Storage**  
-<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,redis&theme=dark" />
+[Explore the code](https://github.com/shantanu-1607/Raftra) · [See the live project page](https://shantanu-1607.github.io/Raftra/)
 
-**Cloud & Infrastructure**  
-<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,git,github,linux&theme=dark" />
+### 02 / [Distributed Rate Limiter](https://github.com/shantanu-1607/rate-limiter) — quotas that scale
 
-**ML / Data & Tools**  
-<img src="https://skillicons.dev/icons?i=sklearn,vscode,postman&theme=dark" />
+**Go · Redis · Lua · nginx · k6**
 
-</div>
+Per-tenant limits across three stateless replicas, with atomic Redis scripts and a fail-open circuit breaker. Hot-key sharding raised throughput **2.1×, from 15.9K to 33.6K requests/sec** under load.
 
----
+[Explore the code](https://github.com/shantanu-1607/rate-limiter)
 
-### Projects
+### 03 / [Niyantran](https://github.com/shantanu-1607/gridlock_prototype) — a traffic command center
 
-**[AlphaQ / Niyantran](https://alphaq.duckdns.org)** — AI Traffic Command Center over a 294-junction Bengaluru road graph. CatBoost + LightGBM stacking ensemble with conformal prediction intervals, a BullMQ/Redis congestion-propagation engine, MLflow experiment tracking, and a Groq-backed LLM for ETA-ranked fleet dispatch. Advanced to Round 2 of Flipkart Gridlock 2.0 among 4,500+ teams.
+**TypeScript · React · FastAPI · BullMQ · Redis**
 
-**[Live Train Tracker](https://github.com/shantanu-1607/live_train_tracker)** — Production-grade backend on FastAPI + Redis + Celery + PostgreSQL. XGBoost delay prediction, Dockerized, deployed on AWS EC2 with GitHub Actions CI/CD.
+Live WebSocket heatmaps over a **294-junction** road graph, with queue-based forecasting for traffic at 5, 15, and 30 minutes. Built for Flipkart Gridlock 2.0 and deployed with Docker.
 
-**[Simple Social](https://github.com/shantanu-1607/simple_social)** — Fully async social media backend. FastAPI, async SQLAlchemy (aiosqlite), JWT bearer-token auth, ImageKit media storage, clean layered architecture.
+[Explore the code](https://github.com/shantanu-1607/gridlock_prototype) · [Try the live app](https://alphaq.duckdns.org)
 
 ---
 
-### GitHub & Coding Stats
+## Open source & experience
+
+**[OpenSRE by Tracer Cloud](https://github.com/Tracer-Cloud/opensre/pulls?q=is%3Apr+author%3Ashantanu-1607)** · 3 merged PRs
+
+Improved the Slack approval gateway's allowlist lookup, reducing lookup latency by **85% at 10K users**, and refactored the data-masking pipeline with typed enums and tests. [Authorization PR](https://github.com/Tracer-Cloud/opensre/pull/4700) · [Data-masking PR](https://github.com/Tracer-Cloud/opensre/pull/4781)
+
+**Software Engineering Intern · Parikshak.ai** · May–Jul 2026
+
+Built AWS delay routing that extended scheduled work beyond SQS's 15-minute limit to **four hours**, and deployed an ARM64 Lambda container with AWS CDK. Also owned pre-launch functional and integration testing on staging.
+
+---
+
+## Tools I reach for
+
+| Area | Technologies |
+| :--- | :--- |
+| **Languages** | Go, C++, Python, TypeScript, JavaScript, SQL |
+| **Services & APIs** | gRPC, Protobuf, REST, WebSockets, FastAPI, Node.js, Express.js |
+| **Data & queues** | PostgreSQL, Redis, bbolt, AWS SQS, BullMQ |
+| **Cloud & operations** | AWS Lambda, EventBridge, S3, ECR, CDK, Docker, nginx, GitHub Actions, Prometheus, k6 |
+
+---
+
+## Beyond the terminal
+
+- **Flipkart GRID 8.0 semifinalist** and **Flipkart Gridlock 2.0 semifinalist**.
+- **Codeforces Pupil**, peak rating 1274; [see my contest profile](https://codeforces.com/profile/shandy_16).
+- **Tech Head, IET Coding Club at BIT Mesra** — organizing coding contests and workshops, and mentoring junior members.
+- Pursuing a **B.Tech in Electrical & Electronics Engineering** at BIT Mesra (2024–2028).
 
 <div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=shantanu-1607&show_icons=true&hide_border=true&title_color=A78BFA&icon_color=7C3AED&text_color=c9d1d9&bg_color=0d1117" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=shantanu-1607&hide_border=true&background=0d1117&ring=7C3AED&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&stroke=A78BFA" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shantanu-1607&layout=compact&hide_border=true&title_color=A78BFA&text_color=c9d1d9&bg_color=0d1117" />
-<img width="49%" src="https://leetcard.jacoblin.cool/shantanu_singh28?theme=dark&font=Baloo%202&ext=heatmap" />
-
-<br>
-<br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=shantanu-1607&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" />
-
+  <br />
+  <sub>Interested in distributed systems, performance, or open source? <a href="mailto:shantanu.singh16076@gmail.com">Let's talk.</a></sub>
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=120&section=footer" />
